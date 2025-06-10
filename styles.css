@@ -161,6 +161,7 @@ button {
 
 .grid-container {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10px;
   column-gap: 10px;
@@ -251,4 +252,10 @@ input:checked+.slider {
 
 input:checked+.slider:before {
   transform: translateX(22px);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
 }

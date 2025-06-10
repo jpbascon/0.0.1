@@ -1,0 +1,97 @@
+.body-dark-mode {
+  background: linear-gradient(to bottom, #EBF2FC 0%, #EBF2FC 50%, #EEF8F9 100%);
+  color: #212636;
+}
+
+.body-light-mode {
+  background: linear-gradient(to bottom, #040918 0%, #040918 50%, #091540 100%);
+  color: white;
+}
+
+.header-dark-mode {
+  background-color: #FFFFFF;
+}
+
+.header-light-mode {
+  background-color: #212636;
+}
+
+.dark-mode-logo {
+  fill: #c7221a;
+}
+
+.light-mode-logo {
+  fill: #F25F5C;
+}
+
+.dark-mode {
+  background-color: #e7e7e7;
+  fill: #212636;
+}
+
+.light-mode {
+  background-color: #2e354b;
+  fill: #FFFFFF;
+}
+
+.dark-button-filter {
+  background-color: #ffffff;
+  color: #212636;
+}
+
+.light-button-filter {
+  background-color: #212636;
+  color: #ffffff;
+}
+
+.dark-active {
+  transition: background-color 0.3s, color 0.15s, opacity 0.3s;
+  background-color: #F25F5C;
+  color: black;
+}
+
+.light-active {
+  transition: background-color 0.3s, color 0.15s, opacity 0.3s;
+  background-color: #c7221a;
+  color: white;
+}
+
+.card-dark-mode {
+  background-color: #212636;
+  border: 1px solid #38405a;
+}
+
+.card-dark-mode-description {
+  color: rgb(226, 226, 226);
+}
+
+.card-dark-mode-remove {
+  background-color: #212633;
+  color: rgb(226, 226, 226);
+}
+
+.card-dark-mode-slider {
+  transition: none;
+  background-color: #545969;
+}
+
+.card-light-mode {
+  background-color: #FFFFFF;
+  border: 1px solid #fbfdfe;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card-light-mode-description {
+  color: #212633;
+}
+
+.card-light-mode-remove {
+  background-color: #ededed;
+  border: 1px solid #ededed;
+  color: #212633;
+}
+
+.card-light-mode-slider {
+  transition: none;
+  background-color: #c7c7c7;
+}
